@@ -1,8 +1,9 @@
 body{
     margin: 0;
-    background-image: url("./images/Fish/fb8.png");
+    background-image: url("./images/background1.png");
     background-repeat: no-repeat;
     background-attachment: fixed; /*to give the scrolling effect*/
+    background-size:cover ;
 }
 main, footer{
     margin: 10px;

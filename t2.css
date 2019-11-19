@@ -1,6 +1,6 @@
 body{
     /* change to ur own background */
-    background-image: url("./images/Fish/photo-of-sea-turtle-2765872.jpg");
+    background-image: url("./images/background1.png");
 }
 main{
     display: inline-flex;
@@ -64,6 +64,6 @@ div img{
 	box-shadow: 0 0 10px 2px #B67B65;
 }
 
-.enlarge:hover{
+.animalType div:hover{
 	transform: scale(1.2); 
 }
