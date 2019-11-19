@@ -57,7 +57,7 @@ div img{
 .animalPhoto, .others, .photos{
     margin-inline-start: 130px;
 }
-img, p{
+div img, p{
     border-radius: 10px;
 }
 .label{ 
