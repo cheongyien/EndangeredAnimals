@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    background-image: url("./images/Fish/island-beside-body-of-water-1488326.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*to give the scrolling effect*/
+}
+main, footer{
+    margin: 10px;
+}
+main{
+    margin: 2px;
+}
+/* header{
+    background-image: url(./images/Banner.png);
+    width: 100%;
+    height: 150px;
+    z-index: inherit;-1
+    <img src="./images/BannerChange.jpg" width="100%" alt="myTitle">
+} */
+header img{
+    height: 150px;
+    width: 100%;
+}
+nav{
+    opacity: 0.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul{
+    /* background-color:black; */
+    margin-block-start: 0%;
+    padding-inline-start: 5px;
+    border-radius: 10px;
+    align-content: center;
+}
+li{
+    display:inline;
+    border: 2px solid rgb(36, 65, 192) ; 
+    border-radius: 10px;
+    padding: 2px 20px;
+    margin: 2px 20px;
+}
+li a{
+    text-decoration: none;
+}
+a:link{
+    color: black;
+}
+/* flexbox */
+.animalType{
+    display: flex;
+    flex-direction: row;
+    padding-inline-start: 20%;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 40%;
+}
+/* flex item */
+.animalType div{
+    flex-grow: 1;
+    width: 35%;
+    margin: 14px 0px;
+}
+
+.animalType img{
+    border-radius: 20px;
+    width: 100%;
+    height: 110%;
+    
+}
+
+
+small{
+    position: absolute;
+    padding: 20px;
+    color: darkkhaki;
+    font-family: 'Courier New', Courier, monospace;
+}
