@@ -1,0 +1,109 @@
+body{
+    background-image: url("./images/Mammals/background.png");
+    background-size: cover;
+}
+
+main{
+    display: block;
+}
+
+h1{
+    text-align: center;
+    margin-inline-start: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: inline-block;
+}
+
+.animalPhoto{
+    float: left;
+}
+
+.animalPhoto img{
+    width: 450px; 
+	height: 300px;
+	margin: 10px 60px 20px 20px;
+}
+
+p{
+    margin: 20px 50px 20px 20px;
+    padding: 20px;
+    height: auto;
+    overflow: hidden;
+    background-color: #E3C6AD; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#special{
+    clear: left;
+} 
+
+.photos{
+    display: inline-block;
+    width: 90%;
+}
+
+.photos img{
+    width: 200px;
+	height: 100px;
+    margin: 20px;
+}
+
+div img{
+    box-shadow: 0 0 2px 10px rgba(255, 255, 255, 0.5);
+}
+
+.animalPhoto, .others, .photos{
+   margin-inline-start: 130px; 
+}
+
+div img, p{
+    border-radius: 10px;
+}
+
+.label{ 
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	display: inline-block;
+	width: 110px;
+	height: 25px,auto;
+	background-color: #004b49;
+	margin: 5px;
+	padding: 4px;
+	border-radius: 10px;
+}
+
+.subheading, .gallery{
+    display: inline-block;
+	width: 100%;
+	font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    font-family: "Bradley Hand ITC", "Comic Sans MS", cursive;
+    font-size: 40px;
+    background-color: #004b49;
+    color: white;
+}
+
+.gallery{
+    display: block;
+    background-color: #E3C6AD;
+    color: #004b49;
+    border-radius: 10px;
+    width: 1250px;
+}
+
+.threatTitle{
+	background-color: #29ab87;
+	padding: 5px;
+	font-size: 28px;
+	border-radius: 30px;
+}
+
+.info{
+	margin-left: 350px;
+}
