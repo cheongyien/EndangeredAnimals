@@ -1,0 +1,71 @@
+body{
+    background-image: url("./images/Fish/fb8.png");
+}
+main{
+    display: inline-flex;
+}
+.typeName{
+    display: inline-block;
+    transform: rotate(-180deg);
+    writing-mode: vertical-lr;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    line-height: 100px;
+    color: #0085AA;
+    padding: 20px 0px;
+    text-align: center;
+    position: fixed;
+    text-shadow: 5px 5px 2px #FEF5EF, -5px -5px 2px #FEF5EF,
+                5px -5px 2px #FEF5EF, -5px 5px 2px #FEF5EF;
+}
+/* flex item */
+.animalType div{
+    /* flex-grow: 1; */
+    margin: 40px;
+    text-align: center;
+}
+
+.animalType img{
+    border-radius: 100px;
+    height: 50%;
+    margin-bottom: 20px;
+}
+div a{
+    text-decoration: none;
+    font-size: medium;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.upButton{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-image: url(./images/arrowUp.jpg);
+    background-size: 100% 100%;
+    background-color:white;
+    box-shadow: 0px 0px 10px coral;
+    border: none;
+    border-radius: 20px;
+    bottom: 10vh;
+    right: 5vw;
+}
+div img{
+    box-shadow: 0 0 2px 10px rgba(255, 255, 255, 0.5);
+}
+span{
+	padding: 10px;
+	border-radius: 30px; 
+	background-color: #00CFC8;
+	color: black;
+	font-family: "Bradley Hand ITC", "Comic Sans MS", cursive;
+	font-size: 25px;
+	font-weight: bold;
+	box-shadow: 0 0 10px 2px #FEF5EF;
+}
+
+.enlarge:hover{
+	transform: scale(1.2); 
+}
+#ray{
+    width: 200px;
+    height: 250px;
+}
