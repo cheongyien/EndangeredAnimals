@@ -62,7 +62,7 @@ span{
 	box-shadow: 0 0 10px 2px #FEF5EF;
 }
 
-.enlarge:hover{
+.animalType div:hover{
 	transform: scale(1.2); 
 }
 #ray{
