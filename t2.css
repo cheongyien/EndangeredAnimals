@@ -53,7 +53,7 @@ div a{
 div img{
     box-shadow: 0 0 2px 10px rgba(255, 255, 255, 0.5);
 }
-.imgName{
+span{
 	padding: 10px;
 	border-radius: 30px; 
 	background-color: #B67B65;
