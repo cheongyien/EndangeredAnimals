@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url("./images/Fish/island-beside-body-of-water-1488326.jpg");
+    background-image: url("./images/Fish/fb8.png");
     background-repeat: no-repeat;
     background-attachment: fixed; /*to give the scrolling effect*/
 }
@@ -19,6 +19,7 @@ main{
 } */
 header img{
     height: 150px;
+    width: 100%;
 }
 nav{
     opacity: 0.5;
@@ -37,6 +38,7 @@ li{
     border-radius: 10px;
     padding: 2px 20px;
     margin: 2px 20px;
+    background-color: aliceblue;
 }
 li a{
     text-decoration: none;
