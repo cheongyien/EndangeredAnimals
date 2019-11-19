@@ -27,7 +27,7 @@ p{
     margin: 20px 50px 20px 20px;
     padding: 20px;
     height: auto;
-    overflow: auto;
+    overflow: hidden;
     background-color: #F7D7D2; /*put the colour scheme or colour that u wan */
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
