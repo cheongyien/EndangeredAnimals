@@ -11,13 +11,6 @@ main, footer{
 main{
     margin: 2px;
 }
-/* header{
-    background-image: url(./images/Banner.png);
-    width: 100%;
-    height: 150px;
-    z-index: inherit;-1
-    <img src="./images/BannerChange.jpg" width="100%" alt="myTitle">
-} */
 header img{
     height: 150px;
     width: 100%;
@@ -76,4 +69,19 @@ small{
     padding: 20px;
     color: darkkhaki;
     font-family: 'Courier New', Courier, monospace;
+}
+
+/* //added this */
+.upButton{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-image: url(./images/arrowUp.jpg);
+    background-size: 100% 100%;
+    background-color:white;
+    box-shadow: 0px 0px 10px coral;
+    border: none;
+    border-radius: 20px;
+    bottom: 10vh;
+    right: 5vw;
 }
