@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background-image: url("./images/Mammals/backgroundMain.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*to give the scrolling effect*/
+	background-size:cover ;
+}
+main, footer{
+    margin: 10px;
+}
+main{
+    margin: 2px;
+}
+
+header img{
+    height: 150px;
+	width: 100%;
+}
+nav{
+    opacity: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul{
+    margin-block-start: 0%;
+    padding-inline-start: 5px;
+    border-radius: 10px;
+    align-content: center;
+}
+li{
+    display:inline;
+    border: 2px solid rgb(36, 65, 192) ; 
+    border-radius: 10px;
+    padding: 2px 20px;
+    margin: 2px 20px;
+}
+
+li a{
+    text-decoration: none;
+}
+a:link{
+    color: black;
+}
+/* flexbox */
+.animalType{
+    display: flex;
+    flex-direction: row;
+    padding-inline-start: 20%;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 40%;
+}
+/* flex item */
+.animalType div{
+    flex-grow: 1;
+    width: 35%;
+	margin: 25px 25px 25px;
+}
+
+.animalType img{
+    border-radius: 20px;
+    width: 100%;
+    height: 110%;
+}
+
+
+small{
+    position: absolute;
+    padding: 20px;
+    color: darkkhaki;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.topnav {
+  overflow: hidden;
+  background-image:url("./images/Banner3.0.png");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
