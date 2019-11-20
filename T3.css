@@ -1,0 +1,124 @@
+body{
+    background-image: url("./images/Bird/backdrop8.png");
+    background-size: cover;
+}
+main{
+    display: block;
+}
+h1{
+    text-align: center;
+    margin-inline-start: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display: inline-block;
+}
+
+.animalPhoto:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.animalPhoto{
+    float: left;
+}
+/*.animalPhoto {
+    customise your own width and height for your animals to get it fit like the one i have shown 
+    width: 450px;
+    /*height: 150px;
+    margin: 10px 60px 20px 20px;
+}*/
+
+p{
+    margin: 20px 50px 20px 20px;
+    padding: 20px;
+    height: auto;
+    overflow: auto;
+    background: rgba(20,188,199,0.50);; /*put the colour scheme or colour that u wan */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#special{
+    clear: left;
+} 
+
+
+.photos{
+    display: inline-block;
+    width: 90%;
+}
+
+.photos img{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+div img{
+    box-shadow: 0 0 2px 10px rgba(255, 255, 255, 0.5);
+}
+.animalPhoto, .others, .photos{
+    margin-inline-start: 130px;
+}
+img, p{
+    border-radius: 10px;
+}
+.label{ 
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	display: inline-block;
+	width: 110px;
+	height: 25px,auto;
+	background-color: #E7EFE9;
+	margin: 5px;
+	padding: 4px;
+	border-radius: 10px;
+}
+.subheading, .gallery{
+    display: inline-block;
+	  width: 100%;
+	  font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    font-family: Georgia, Times, serif;
+    font-size: 40px;
+    background-color: #E7EFE9;
+    color: black;
+}
+.gallery{
+    display: block;
+    background: rgba(20,188,199,0.50);
+    color: black;
+    border-radius: 10px;
+    width: 1150px;
+}
+
+.others {
+  background: rgba(20,188,199,0.50);
+  color: black;
+}
+
+.mainImg{
+  width:450px;
+  margin: 10px 60px 20px 20px;
+}
+
+.magImg:hover{
+  transform: scale(1.5);
+    transition: transform .2s; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    box-shadow: 0 0 2px 10px rgba(255, 255, 255, 0.5); 
+}
