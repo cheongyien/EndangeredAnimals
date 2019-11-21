@@ -11,11 +11,13 @@
     $email = $_POST['email'];
 
     $insert_values = "INSERT INTO sub_details VALUES ('$name', '$email')";
+    mysqli_query($handler, $insert_values);
     // if(mysqli_query($handler, $insert_values)){
     //     echo "Data is saved, Thank you for subscribing!"."<br>";
     // }else{
     //     echo "Data is not saved: ".mysqli_error($handler)."<br>";
     // }
+
 
     // echo file_get_contents("subscribed.html");
     readfile("subscribed.html");

@@ -43,12 +43,5 @@
         echo " unable to create table: ".mysqli_error($handler)."<br>";
     }
 
-    // insert values
-    $insert_values = "INSERT INTO sub_details VALUES ('$name', '$email')";
-    if(mysqli_query($handler, $insert_values)){
-        echo "data is saved"."<br>";
-    }else{
-        echo "data is not saved: ".mysqli_error($handler)."<br>";
-    }
 
 ?>
