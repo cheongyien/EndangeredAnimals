@@ -45,7 +45,7 @@ a:link{
     flex-direction: row;
     padding-inline-start: 20%;
     flex-wrap: wrap;
-    width: 60%;
+    width: 70%;
     height: 40%;
 }
 /* flex item */
@@ -65,9 +65,10 @@ a:link{
 
 small{
     position: absolute;
-    padding: 20px;
-    color: darkkhaki;
+    margin: 20px;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .upButton{

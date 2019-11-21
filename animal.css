@@ -8,8 +8,8 @@
 #mammals{
     background-image: url("./Mammals/images/backgroundMain.png");
 }
-#reptiles{
-    background-image: url("./Reptiles/images/backgroundMain.png");
+#reptile{
+    background-image: url("./Reptiles/images/repBack.png");
 }
 body{
     background-size: cover;
