@@ -66,6 +66,7 @@ a:link{
 small{
     position: absolute;
     margin: 20px;
+    padding: 10px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     background-color: rgba(0, 0, 0, 0.5);
@@ -106,10 +107,12 @@ small{
     color: black;
 }
   
-.topnav a.active {
+.topnav a:active {
     background-color: #4CAF50;
     color: white;
 }
+
+/* This part is mainly for form, subscribe.html */
 .formtitle{
     text-align: center; 
     font-weight: bold;
@@ -140,7 +143,8 @@ cursor: pointer;
 button:hover {
 background-color: #45a049;
 }
-  
+
+/* box for form */
 .form {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -153,7 +157,6 @@ form p{
     color: #45a049;
 }
 label, input{
-    /* padding: 10px 10px 10px 0px; */
     margin: 10px 10px 10px 0px;
 }
 

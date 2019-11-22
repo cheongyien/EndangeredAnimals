@@ -35,11 +35,10 @@ p{
     background-color: rgb(59, 44, 197,0.5);
     color: azure;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    vertical-align: auto;
 }
 
 #special{
-    clear: left;
+    clear: right;
 } 
 
 .photos{
@@ -54,7 +53,7 @@ p{
 }
 
 div img{
-    box-shadow: 0 0 2px 10px rgba(255, 255, 255, 0.5);)
+    box-shadow: 0 0 2px 10px rgba(255, 255, 255, 0.5);
 }
 .animalPhoto, .others, .photos{
     margin-inline-start: 130px;
@@ -117,6 +116,6 @@ div img, p{
   
 .photos img:hover{
     transform: scale(1.5);
-    transition: transform .2s; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    box-shadow: 0 0 2px 10px rgba(255, 255, 255, 0.5); 
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: transform .2s; 
 }
