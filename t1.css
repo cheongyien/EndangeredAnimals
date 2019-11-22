@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url("./indexBack2.png");
+    background-image: url("./indexBack2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed; /*to give the scrolling effect*/
     background-size:cover ;
